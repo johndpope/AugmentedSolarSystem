@@ -9,21 +9,22 @@
 /* Begin PBXBuildFile section */
 		17FC693338E5C451EEFBD6FA /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DFC5695AC98A1CFA61E623 /* AssetsLibrary.framework */; };
 		36B36DE405C67DDC5ADFD0AB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6E595CD2E4C2C0D91515B6 /* QuartzCore.framework */; };
-		5F01E11B1F39419100BFF9B0 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F01E11A1F39419100BFF9B0 /* AboutViewController.swift */; };
 		5F0662BB1F1D1F6600D66563 /* PlanetCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0662BA1F1D1F6600D66563 /* PlanetCollectionViewController.swift */; };
 		5F0CC2141F2814BD00E25474 /* Mixpanel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F0CC2131F2814BD00E25474 /* Mixpanel.framework */; };
 		5F27FD181F061C5200498524 /* Mars.scn in Resources */ = {isa = PBXBuildFile; fileRef = 5F27FD171F061C5200498524 /* Mars.scn */; };
 		5F28BC341F3388AF003E013F /* ScaleReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F28BC331F3388AF003E013F /* ScaleReference.swift */; };
-		5F2D207F1F5A007E005D2C3C /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D207E1F5A0031005D2C3C /* TutorialViewController.swift */; };
 		5F30D4DC1F16CD68006A45B1 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F30D4DB1F16CD68006A45B1 /* Planet.swift */; };
 		5F30D4DD1F16CD7D006A45B1 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F30D4DB1F16CD68006A45B1 /* Planet.swift */; };
 		5F30D4DF1F16CDB7006A45B1 /* PlanetoidGroupNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F30D4DE1F16CDB7006A45B1 /* PlanetoidGroupNode.swift */; };
 		5F30D4E01F16CDBD006A45B1 /* PlanetoidGroupNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F30D4DE1F16CDB7006A45B1 /* PlanetoidGroupNode.swift */; };
 		5F39596E1EE9898200EDEBEE /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F39596D1EE934B200EDEBEE /* Utilities.swift */; };
+		5F3B3360220FEA5400F961C1 /* TutorialView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F3B335F220FEA5400F961C1 /* TutorialView.xib */; };
+		5F3B33662213DD6D00F961C1 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3B33652213DD6D00F961C1 /* TutorialViewController.swift */; };
+		5F3B33682213DE0800F961C1 /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F3B33672213DE0800F961C1 /* AboutView.xib */; };
+		5F3B336D2213E15100F961C1 /* SwiftMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3B336C2213E15100F961C1 /* SwiftMessages.framework */; };
+		5F3B336F2213E1A800F961C1 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3B336E2213E1A800F961C1 /* AboutView.swift */; };
 		5F78D70E1F3D222A0059FDA1 /* AppRater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F78D70D1F3D222A0059FDA1 /* AppRater.swift */; };
-		5F8B38BD1F7474BC00F0F7D1 /* SwiftAA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F8B38BC1F7474B800F0F7D1 /* SwiftAA.framework */; };
-		5F8B38C01F74760B00F0F7D1 /* SwiftAA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F8B38BC1F7474B800F0F7D1 /* SwiftAA.framework */; };
-		5F8B38C11F74760B00F0F7D1 /* SwiftAA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5F8B38BC1F7474B800F0F7D1 /* SwiftAA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5F86ACB7220EA5370011A98B /* SwiftAA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F86ACB6220EA5370011A98B /* SwiftAA.framework */; };
 		5F8B38C61F74CAE600F0F7D1 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8B38C41F74CAD200F0F7D1 /* FocusSquare.swift */; };
 		5F8B38C71F74CAE900F0F7D1 /* FocusSquareSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8B38C51F74CAD200F0F7D1 /* FocusSquareSegment.swift */; };
 		5F8B38C91F74CCEB00F0F7D1 /* VirtualObjectARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8B38C81F74CCE800F0F7D1 /* VirtualObjectARView.swift */; };
@@ -61,7 +62,6 @@
 		5FF9CEF11EE9C00D00A84513 /* SceneKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF9CEF01EE9C00D00A84513 /* SceneKitExtension.swift */; };
 		65E69A70C61562F94B2514E1 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46267284C2EBEFD65B20CCA6 /* CoreText.framework */; };
 		81F43EDC0F64A38CEE5F37C2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F19230B2264C6E45B5CA90A /* AVFoundation.framework */; };
-		857C7513D5A11193D90F0F17 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C54F36D8B0BA965D4145B6 /* BuddyBuildSDK.framework */; };
 		8F909B3F9BC3BA392B1542DF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE6A4A4E0D34347FC052697 /* CoreMedia.framework */; };
 		98E5F380AC90E1950A5C65FA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A97186C5D8E146BE8573A1 /* CoreTelephony.framework */; };
 		CD562CDF09A6E4A6A86EE518 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6534EA2F6D7099D59E3BE61 /* CoreVideo.framework */; };
@@ -75,7 +75,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5F8B38C11F74760B00F0F7D1 /* SwiftAA.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,18 +87,21 @@
 		39DFC5695AC98A1CFA61E623 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		3F19230B2264C6E45B5CA90A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		46267284C2EBEFD65B20CCA6 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		5F01E11A1F39419100BFF9B0 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		5F0662BA1F1D1F6600D66563 /* PlanetCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCollectionViewController.swift; sourceTree = "<group>"; };
 		5F0CC2131F2814BD00E25474 /* Mixpanel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mixpanel.framework; path = Carthage/Build/iOS/Mixpanel.framework; sourceTree = "<group>"; };
 		5F255D8A1F2BA0A400E9F62E /* DocumentationScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = DocumentationScene.scn; path = art.scnassets/DocumentationScene.scn; sourceTree = "<group>"; };
 		5F27FD171F061C5200498524 /* Mars.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = Mars.scn; path = art.scnassets/Mars.scn; sourceTree = "<group>"; };
 		5F28BC331F3388AF003E013F /* ScaleReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleReference.swift; sourceTree = "<group>"; };
-		5F2D207E1F5A0031005D2C3C /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = SOURCE_ROOT; };
 		5F30D4DB1F16CD68006A45B1 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		5F30D4DE1F16CDB7006A45B1 /* PlanetoidGroupNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetoidGroupNode.swift; sourceTree = "<group>"; };
 		5F39596D1EE934B200EDEBEE /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		5F3B335F220FEA5400F961C1 /* TutorialView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TutorialView.xib; sourceTree = "<group>"; };
+		5F3B33652213DD6D00F961C1 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		5F3B33672213DE0800F961C1 /* AboutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
+		5F3B336C2213E15100F961C1 /* SwiftMessages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftMessages.framework; path = Carthage/Build/iOS/SwiftMessages.framework; sourceTree = "<group>"; };
+		5F3B336E2213E1A800F961C1 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		5F78D70D1F3D222A0059FDA1 /* AppRater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRater.swift; sourceTree = "<group>"; };
-		5F8B38BC1F7474B800F0F7D1 /* SwiftAA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftAA.framework; sourceTree = "<group>"; };
+		5F86ACB6220EA5370011A98B /* SwiftAA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftAA.framework; path = Carthage/Build/iOS/SwiftAA.framework; sourceTree = "<group>"; };
 		5F8B38C41F74CAD200F0F7D1 /* FocusSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
 		5F8B38C51F74CAD200F0F7D1 /* FocusSquareSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSquareSegment.swift; sourceTree = "<group>"; };
 		5F8B38C81F74CCE800F0F7D1 /* VirtualObjectARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectARView.swift; sourceTree = "<group>"; };
@@ -132,7 +134,6 @@
 		84A97186C5D8E146BE8573A1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		8CADC108C15A59E1D0BE2296 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		9EE6A4A4E0D34347FC052697 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		A9C54F36D8B0BA965D4145B6 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		C6534EA2F6D7099D59E3BE61 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -141,15 +142,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F8B38BD1F7474BC00F0F7D1 /* SwiftAA.framework in Frameworks */,
+				5F3B336D2213E15100F961C1 /* SwiftMessages.framework in Frameworks */,
+				5F86ACB7220EA5370011A98B /* SwiftAA.framework in Frameworks */,
 				5F0CC2141F2814BD00E25474 /* Mixpanel.framework in Frameworks */,
-				857C7513D5A11193D90F0F17 /* BuddyBuildSDK.framework in Frameworks */,
 				17FC693338E5C451EEFBD6FA /* AssetsLibrary.framework in Frameworks */,
 				65E69A70C61562F94B2514E1 /* CoreText.framework in Frameworks */,
 				98E5F380AC90E1950A5C65FA /* CoreTelephony.framework in Frameworks */,
 				F86D392787AFEACCFF1323E9 /* SystemConfiguration.framework in Frameworks */,
 				36B36DE405C67DDC5ADFD0AB /* QuartzCore.framework in Frameworks */,
-				5F8B38C01F74760B00F0F7D1 /* SwiftAA.framework in Frameworks */,
 				81F43EDC0F64A38CEE5F37C2 /* AVFoundation.framework in Frameworks */,
 				8F909B3F9BC3BA392B1542DF /* CoreMedia.framework in Frameworks */,
 				CD562CDF09A6E4A6A86EE518 /* CoreVideo.framework in Frameworks */,
@@ -169,9 +169,9 @@
 		5F0CC2121F2814BD00E25474 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5F8B38BC1F7474B800F0F7D1 /* SwiftAA.framework */,
+				5F3B336C2213E15100F961C1 /* SwiftMessages.framework */,
+				5F86ACB6220EA5370011A98B /* SwiftAA.framework */,
 				5F0CC2131F2814BD00E25474 /* Mixpanel.framework */,
-				A9C54F36D8B0BA965D4145B6 /* BuddyBuildSDK.framework */,
 				39DFC5695AC98A1CFA61E623 /* AssetsLibrary.framework */,
 				46267284C2EBEFD65B20CCA6 /* CoreText.framework */,
 				84A97186C5D8E146BE8573A1 /* CoreTelephony.framework */,
@@ -182,6 +182,25 @@
 				C6534EA2F6D7099D59E3BE61 /* CoreVideo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F3B335E220FEA3B00F961C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F3B335F220FEA5400F961C1 /* TutorialView.xib */,
+				5F3B33672213DE0800F961C1 /* AboutView.xib */,
+				5F3B336E2213E1A800F961C1 /* AboutView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F3B33692213DE5D00F961C1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F3B33652213DD6D00F961C1 /* TutorialViewController.swift */,
+				5FBAF9711EE8B78400FAA54B /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		5F8B38C31F74CABC00F0F7D1 /* Focus Square */ = {
@@ -216,14 +235,14 @@
 		5FBAF96C1EE8B78400FAA54B /* SolarSystem */ = {
 			isa = PBXGroup;
 			children = (
+				5F3B33692213DE5D00F961C1 /* ViewControllers */,
+				5F3B335E220FEA3B00F961C1 /* Views */,
 				5F8B38C31F74CABC00F0F7D1 /* Focus Square */,
 				5F8B38C81F74CCE800F0F7D1 /* VirtualObjectARView.swift */,
-				5F2D207E1F5A0031005D2C3C /* TutorialViewController.swift */,
 				5F30D4DE1F16CDB7006A45B1 /* PlanetoidGroupNode.swift */,
 				5FBAF96D1EE8B78400FAA54B /* AppDelegate.swift */,
 				5F39596D1EE934B200EDEBEE /* Utilities.swift */,
 				5FBAF96F1EE8B78400FAA54B /* art.scnassets */,
-				5FBAF9711EE8B78400FAA54B /* ViewController.swift */,
 				5FBAF9731EE8B78400FAA54B /* Main.storyboard */,
 				5FBAF9761EE8B78400FAA54B /* Assets.xcassets */,
 				5FBAF9781EE8B78400FAA54B /* LaunchScreen.storyboard */,
@@ -241,7 +260,6 @@
 				5F255D8A1F2BA0A400E9F62E /* DocumentationScene.scn */,
 				5F9126B51F2F8EAE00678A8F /* PinchController.swift */,
 				5F28BC331F3388AF003E013F /* ScaleReference.swift */,
-				5F01E11A1F39419100BFF9B0 /* AboutViewController.swift */,
 				5F78D70D1F3D222A0059FDA1 /* AppRater.swift */,
 				5FAD55E11F50852F0016B04E /* DatePickerViewController.swift */,
 				5FA2CD1C1F5A7B8E00E870A5 /* nasalization-rg.ttf */,
@@ -310,7 +328,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Roderic Campbell";
 				TargetAttributes = {
 					5FBAF9691EE8B78400FAA54B = {
@@ -348,10 +366,12 @@
 				5FA91A751F02C76C00D8AFC1 /* Uranus.scn in Resources */,
 				5F27FD181F061C5200498524 /* Mars.scn in Resources */,
 				5FA2CD1E1F5A7D5B00E870A5 /* nasalization-rg.ttf in Resources */,
+				5F3B3360220FEA5400F961C1 /* TutorialView.xib in Resources */,
 				5FBAF9701EE8B78400FAA54B /* art.scnassets in Resources */,
 				5FC65CDA1F01C98800D8C9CB /* Mercury.scn in Resources */,
 				5FBAF97A1EE8B78400FAA54B /* LaunchScreen.storyboard in Resources */,
 				5FC65CDD1F02315000D8C9CB /* Jupiter.scn in Resources */,
+				5F3B33682213DE0800F961C1 /* AboutView.xib in Resources */,
 				5FC65CD81F01C93600D8C9CB /* Sun.scn in Resources */,
 				5FBAF9771EE8B78400FAA54B /* Assets.xcassets in Resources */,
 				5FBAF9751EE8B78400FAA54B /* Main.storyboard in Resources */,
@@ -389,13 +409,17 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Mixpanel.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftAA.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftMessages.framework",
 			);
 			outputPaths = (
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Mixpanel.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftAA.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftMessages.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
 		5F2641631F4C9C9000FE1F20 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -421,18 +445,18 @@
 			files = (
 				5F8B38C91F74CCEB00F0F7D1 /* VirtualObjectARView.swift in Sources */,
 				5F0662BB1F1D1F6600D66563 /* PlanetCollectionViewController.swift in Sources */,
+				5F3B336F2213E1A800F961C1 /* AboutView.swift in Sources */,
 				5F8B38C61F74CAE600F0F7D1 /* FocusSquare.swift in Sources */,
 				5F39596E1EE9898200EDEBEE /* Utilities.swift in Sources */,
 				5FF9CEF11EE9C00D00A84513 /* SceneKitExtension.swift in Sources */,
 				5F30D4DF1F16CDB7006A45B1 /* PlanetoidGroupNode.swift in Sources */,
 				5FBAF9721EE8B78400FAA54B /* ViewController.swift in Sources */,
 				5FBAF96E1EE8B78400FAA54B /* AppDelegate.swift in Sources */,
-				5F2D207F1F5A007E005D2C3C /* TutorialViewController.swift in Sources */,
 				5F9126B61F2F8EAE00678A8F /* PinchController.swift in Sources */,
 				5F28BC341F3388AF003E013F /* ScaleReference.swift in Sources */,
+				5F3B33662213DD6D00F961C1 /* TutorialViewController.swift in Sources */,
 				5F8B38C71F74CAE900F0F7D1 /* FocusSquareSegment.swift in Sources */,
 				5FAD55E21F50852F0016B04E /* DatePickerViewController.swift in Sources */,
-				5F01E11B1F39419100BFF9B0 /* AboutViewController.swift in Sources */,
 				5F78D70E1F3D222A0059FDA1 /* AppRater.swift in Sources */,
 				5F30D4DC1F16CD68006A45B1 /* Planet.swift in Sources */,
 			);
@@ -503,6 +527,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -510,6 +535,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -537,7 +563,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -560,6 +586,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -567,6 +594,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -588,7 +616,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -612,7 +640,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.thumbworks.AugmentedSolarSystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -633,7 +661,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.thumbworks.AugmentedSolarSystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -1,2 +1,3 @@
-github "Thumbworks/SwiftAA" "10f9432e783b864a6a43f7c2868f384456fc03a5"
-github "mixpanel/mixpanel-iphone" "v3.1.9"
+github "SwiftKickMobile/SwiftMessages" "6.0.2"
+github "mixpanel/mixpanel-iphone" "v3.3.9"
+github "onekiloparsec/SwiftAA" "2.0.2"
